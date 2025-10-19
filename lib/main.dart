@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'screens/activity_login.dart'; // ← ファイルの場所が lib/screens/activity_login.dart の場合
+import 'screens/converted_login.dart';
+import 'screens/converted_signup.dart';
 
 void main() {
   runApp(const MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: ConvertedLogin(), // ← これを表示するだけ
+    home: ConvertedLogin(),
   ));
 }
